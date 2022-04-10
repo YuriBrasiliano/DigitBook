@@ -179,6 +179,15 @@ nav li {
     border-radius: 25px;
     box-shadow: 10px 10px 10px 10px #4171BD;
 }
-
+.logincampos select {
+    font-family: cursive;
+    text-align: center;
+    margin-top: 2%;
+    width: 800px;
+    height: 40px;
+    background-color: #91effc;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px 10px #4171BD;
+}
 
 
