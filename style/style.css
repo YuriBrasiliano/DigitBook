@@ -1,4 +1,4 @@
-body{background:linear-gradient(-45deg, #48A4B1,#2C7083, #2A525E);}
+body{font-family: cursive;background:linear-gradient(-45deg, #48A4B1,#2C7083, #2A525E);}
 
 #logosignin{
     display: grid;
@@ -73,7 +73,6 @@ nav {
     display: inline-block;
     animation: menu 4s ease;
     padding-top: 14%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     
 }
@@ -96,7 +95,6 @@ nav li {
     color: #fff;
     float: left;
     width: 50vw;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     margin-left: 2%;
     margin-top: 3%;
@@ -104,8 +102,7 @@ nav li {
 }
 .titulo{
     width: 50vw;
-    font-family: sans-serif;
-    color: rgba(255, 0, 0, 0.493);
+    color: rgb(255, 0, 0);
     font-weight: 700;
     font-size: 30px;
     margin-top: 30%;
@@ -145,12 +142,10 @@ nav li {
     animation: menu 4s ease;
     text-align: center;
     color: #fff;
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 7%;
-    font-family: cursive;
 }
 .logincampos button{
-    font-family: cursive;
     width: 300px;
     height: 40px;
     margin-top: 3%;
@@ -171,7 +166,6 @@ nav li {
     margin-bottom: 5%;
 }
 .logincampos input {
-    font-family: cursive;
     text-align: center;
     margin-top: 2%;
     width: 800px;
@@ -181,7 +175,6 @@ nav li {
     box-shadow: 10px 10px 10px 10px #4171BD;
 }
 .logincampos select {
-    font-family: cursive;
     text-align: center;
     margin-top: 2%;
     width: 800px;
@@ -191,7 +184,7 @@ nav li {
     box-shadow: 10px 10px 10px 10px #4171BD;
 }
 #carta{
-    font-family: cursive;
+    box-shadow: 10px 10px 10px 10px #4171BD;
     margin-top: 3%;
     background-color: #91effc;
     animation: menu 4s ease;
@@ -201,4 +194,24 @@ nav li {
     font-family: cursive;
     border-radius: 25px;
 }
+.cursos h1{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    margin-top: 14%;
+    margin-bottom: 5%;
+}
+.cursos img{
+    width: 20%;
+    float: left;
+    margin-left: 20%;
+    margin-top: 7%;
+    animation: menu 4s ease;
+    border-radius: 40%;
+    transition: transform 1s;
+    margin-bottom: 5%;
+}
+
+.cursos img:hover {
+    transform: scale(1.5); }
 
