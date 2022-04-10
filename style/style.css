@@ -1,12 +1,6 @@
-body{
-    margin: 0;
-    padding: 0%;
-    background: linear-gradient(-45deg, #48A4B1,#2C7083, #2A525E );
-    background-size: cover;
-}
+body{background:linear-gradient(-45deg, #48A4B1,#2C7083, #2A525E);}
 
 #logosignin{
-
     display: grid;
     place-items:center;
     padding-top: 3%;
@@ -145,5 +139,46 @@ nav li {
     -webkit-animation-fill-mode: forwards;
     -moz-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
-
 }
+
+.logincampos{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 7%;
+    font-family: cursive;
+}
+.logincampos button{
+    font-family: cursive;
+    width: 300px;
+    height: 40px;
+    margin-top: 3%;
+    background-color: #91effc;
+    border-radius: 25px;
+    color: black;
+    font-weight: 700;
+    
+}
+.logincampos button:hover{
+    animation: login 0.5s ease-in-out;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+.logincampos h1{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.logincampos input {
+    font-family: cursive;
+    text-align: center;
+    margin-top: 2%;
+    width: 800px;
+    height: 40px;
+    background-color: #91effc;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px 10px #4171BD;
+}
+
+
+
