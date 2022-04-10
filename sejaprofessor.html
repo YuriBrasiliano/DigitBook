@@ -25,14 +25,17 @@
                 <input type="text" placeholder="Digite a área e a linguagem que deseja lecionar">
                 <br><br>
                 <form action="/action_page.php">
-                    <label for="cars">Quanto tempo de experiência possui na área da educação?</label><br>
-                    <select name="cars" id="cars">
+                    <select name="tempoexp" id="tempoexp">
+                      <option value="1ano">Quanto tempo de experiência possui na área da educação?</option>
                       <option value="1ano">0 a 1 ano</option>
                       <option value="2anos">1 a 3 anos</option>
                       <option value="3anosmais">3 anos ou mais</option>
                       <option value="0anos">Não possuo experiência</option>
                     </select>
                     <br><br>
+                    <textarea id="carta" name="carta"
+                    rows="6" cols="85" placeholder="Digite aqui uma breve apresentação e o por que ensinar é tão importante para você!"></textarea>
+                <br><br>
                     <button type="submit">Enviar</button>  </div>
             </section>
             

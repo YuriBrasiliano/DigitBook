@@ -142,6 +142,7 @@ nav li {
 }
 
 .logincampos{
+    animation: menu 4s ease;
     text-align: center;
     color: #fff;
     font-size: 30px;
@@ -189,5 +190,15 @@ nav li {
     border-radius: 25px;
     box-shadow: 10px 10px 10px 10px #4171BD;
 }
-
+#carta{
+    font-family: cursive;
+    margin-top: 3%;
+    background-color: #91effc;
+    animation: menu 4s ease;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 5%;
+    font-family: cursive;
+    border-radius: 25px;
+}
 
