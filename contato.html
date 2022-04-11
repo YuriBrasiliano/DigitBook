@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,8 +11,26 @@
     <section class="header">
         <div id="logosignin">
             <img src="imgs/logo.png" width="350" height="250" style="border-radius: 25px;box-shadow: 10px 10px 10px 10px #4171BD;">
-        </div>
-     
+        </div>     
         </section>
+    <section class="contato">
+        <div class="contato">
+            <h1>Digite uma mensagem abaixo e<br> responderemos assim que possivel</h1>
+            <form action="/action_page.php">
+                <select name="contato">
+                  <option value= null>Oque gostaria de nos dizer?</option>
+                  <option value="reclamacao">Reclamação</option>
+                  <option value="sugestao">Sugestão</option>
+                  <option value="suporte">Suporte</option>
+                  <option value="outros">Outros</option>
+                </select>
+                <br>
+                <textarea name="contato"
+                    rows="7" cols="90" placeholder="Digite aqui sua mensagem"></textarea>
+                <br><br>
+                    <button type="submit">Enviar</button>
+        </div>
+
+    </section>
 </body>
 </html>
