@@ -268,7 +268,7 @@ nav li {
 .sobre img{
     width: 20%;
     margin-left: 16%;
-    margin-top: 16%;
+    margin-top: 30%;
     animation: imagem 6s ease-in-out infinite;
     border-radius: 40%;
     margin-bottom: 5%;
@@ -278,7 +278,7 @@ nav li {
     text-align: justify;
     margin-top: 16%;
     float: right;
-    width: 40%;
+    width: 50%;
     font-size: 20px;
     color:#fff;
     margin-right: 5%;
