@@ -1,14 +1,13 @@
 body{
-    max-width: 100vw;
-    font-family: cursive;background:linear-gradient(-45deg, #48A4B1,#2C7083, #2A525E);}
+    min-height: 100vh;
+    -webkit-scroll-behavior:smooth;-moz-scroll-behavior:smooth;-ms-scroll-behavior:smooth;scroll-behavior:smooth;
+    font-family: cursive;background:linear-gradient(-80deg, rgb(150, 160, 245), #48A4B1,#2C7083,#236172, #2A525E);}
 
 #logosignin{
     display: grid;
     place-items:center;
     padding-top: 3%;
-    animation: logo 3s ease-in-out;
-
-}
+    animation: logo 3s ease-in-out;}
 
 
 @keyframes imagem{
@@ -102,7 +101,6 @@ nav li {
     font-size: 20px;
     margin-left: 2%;
     margin-top: 3%;
-    margin-bottom: 1000px;
     line-height: 50px;
     text-align: justify;
 }
@@ -286,4 +284,53 @@ nav li {
     font-size: 20px;
     color:#fff;
     margin-right: 5%;
+}
+
+.rodape{
+    margin-top: 50%;
+    display: grid;
+    height: 400px;
+    width: 100%;
+    padding: 0%;
+    border:0;}
+
+.rodape img {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.insta, .youtube{
+    margin-left: 20px;
+}
+
+.rodape ul{
+    margin-top: 6%;
+    display: flex;
+    margin-left: 43%;
+    margin-right: auto;
+    list-style: none;
+}
+.rodape a:visited {
+    color: rgb(0, 33, 83)
+}
+#direitos {
+    font-size: large;
+    color: rgb(255, 255, 255);
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rodape p{
+    color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rodape p a {
+    text-decoration: none;
+    
+}
+.rodape p a::after{
+    color: rgb(255, 255, 255);
 }
