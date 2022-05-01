@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>DigitBook</title>
 </head>
-<body>
+<body data-aos="fade-in">
     <div class="login">
         <a href="signin.html"><button type="button" title="Login">
             Login
@@ -33,7 +34,7 @@
     
     </nav>
     </section>
-<section class="intro">
+<section class="intro" data-aos="fade-right">
 <div class="titulo">   
 Aprenda tecnologias emergentes</div>
 
@@ -46,7 +47,33 @@ Aprenda tecnologias emergentes</div>
     <img src="imgs/imagem1.png" width="450">
     </div>
 </section>
-<section class="rodape">
+<section class="depoimentos" data-aos="fade-up">
+    <p id="title_depoimentos">Veja os depoimentos dos nossos alunos!</p>
+    <ul>
+        <li>
+            <div class="caixa_depoimento">
+                <div class="nome_depoimento">Yuri Brasiliano</div>
+                <p>After I started my English course at DigitBook, everything changed! I'm finally able to write this message in English, understant series and movies and the best part! A lot of interviews, it's definitely crazy how much speaking English is important nowadays!</p>
+
+            </div>
+        </li>
+        <li>
+            <div class="caixa_depoimento">
+                <div class="nome_depoimento">Yuri Brasiliano</div>
+                <p>After I started my English course at DigitBook, everything changed! I'm finally able to write this message in English, understant series and movies and the best part! A lot of interviews, it's definitely crazy how much speaking English is important nowadays!</p>
+
+            </div>
+        </li>
+        <li>
+            <div class="caixa_depoimento">
+                <div class="nome_depoimento">Yuri Brasiliano</div>
+                <p>After I started my English course at DigitBook, everything changed! I'm finally able to write this message in English, understant series and movies and the best part! A lot of interviews, it's definitely crazy how much speaking English is important nowadays!</p>
+
+            </div>
+        </li>
+    </ul>
+</section>
+<section class="rodape" data-aos="fade-in">
     <img src="imgs/logo.png" width="250" height="150" style="border-radius: 25px;box-shadow: 10px 10px 10px 10px #4171BD;">
     <ul>
     <li class="linkedin"><a target="_blank" href="https://www.linkedin.com/in/digit-book-156266239/" title="LinkedIn"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="25px" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg></a></li>
@@ -60,5 +87,11 @@ Aprenda tecnologias emergentes</div>
 <p><a href="contato.html">Contato</a></p>
 <p><p id="direitos">© 2022 DigitBook. All rights reserved.</p>
 </section>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 2000,
+    });
+</script>
 </body>
 </html>
